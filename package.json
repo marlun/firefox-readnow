@@ -1,0 +1,45 @@
+{
+  "name": "firefox-readnow",
+  "title": "firefox-readnow",
+  "id": "jid1-szVBgZg23BjzIw",
+  "description": "Makes the main content readable in place",
+  "author": "Martin Lundberg",
+  "license": "MPL 2.0",
+  "version": "0.1",
+	"preferences": [
+		{
+			"name": "hotkey",
+			"title": "Hotkey",
+			"type": "string",
+			"value": "shift-0"
+		},
+		{
+			"name": "style-header",
+			"title": "Header styles",
+			"description": "Properties and values seperated with semicolons. Multiple values seperated by comma.",
+			"type": "string",
+			"value": "fontFamily:Source Sans Pro,fontWeight:600"
+		},
+		{
+			"name": "style-paragraphs",
+			"title": "Paragraph styles",
+			"description": "Properties and values seperated with semicolons. Multiple values seperated by comma.",
+			"type": "string",
+			"value": "font:400 22px/1.4 'Source Sans Pro',color:#333,MozOSXFontSmoothing:grayscale"
+		},
+		{
+			"name": "style-list-items",
+			"title": "List styles",
+			"description": "Properties and values seperated with semicolons. Multiple values seperated by comma.",
+			"type": "string",
+			"value": "font:400 20px/1.4 'Source Sans Pro',color:#333,MozOSXFontSmoothing:grayscale"
+		},
+		{
+			"name": "style-code-listings",
+			"title": "Code listing styles",
+			"description": "Properties and values seperated with semicolons. Multiple values seperated by comma.",
+			"type": "string",
+			"value": "font:400 14px/1.3 Inconsolata-g"
+		}
+	]
+}
